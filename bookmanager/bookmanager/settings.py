@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-]
+    # 'book', solution 1
+    # 'book.apps.BookConfig', # solution 2
+    #
+     ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
